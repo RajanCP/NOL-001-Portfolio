@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joe Bloggs Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="nav">
+      <div class="nav__container">
+        <div class="nav__logo">Joe Bloggs</div>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav__list" id="nav-menu">
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Get in Touch</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="header__container">
+      <h6>👋 Hey! I’m Joe Bloggs</h6>
+      <h1>A Junior Software Developer based in the UK.</h1>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about__container">
+        <h2>About Me</h2>
+        <img src="assets/ProfilePhoto.png" alt="Joe Bloggs" class="about__image" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida, nulla non cursus finibus.</p>
+        <p>Proin eu metus nec nisi gravida fermentum. Suspendisse potenti. Morbi rutrum massa ac purus dignissim.</p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <h2>Technical Skills</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet eos recusandae autem tempora eligendi error quae? Eum similique, voluptas, corrupti rerum nobis a officiis repellendus soluta dicta vitae tenetur!</p>
+      <ul class="skills__list">
+        <li class="skills__item"><img src="assets/SpringBoot.svg" alt="Spring Boot" /><span>Spring Boot</span></li>
+        <li class="skills__item"><img src="assets/Java.svg" alt="Java" /><span>Java</span></li>
+        <li class="skills__item"><img src="assets/React.svg" alt="React" /><span>React</span></li>
+        <li class="skills__item"><img src="assets/BEM.svg" alt="BEM" /><span>BEM</span></li>
+        <li class="skills__item"><img src="assets/SCSS.svg" alt="SCSS" /><span>SCSS</span></li>
+        <li class="skills__item"><img src="assets/JavaScript.svg" alt="JavaScript" /><span>JavaScript</span></li>
+        <li class="skills__item"><img src="assets/CSS3.svg" alt="CSS3" /><span>CSS3</span></li>
+        <li class="skills__item"><img src="assets/HTML5.svg" alt="HTML5" /><span>HTML5</span></li>
+        <li class="skills__item"><img src="assets/Git.svg" alt="Git" /><span>Git</span></li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="projects__grid">
+        <article class="project">
+          <img src="assets/ClientProject.png" alt="Client Project Screenshot" class="project__image" />
+          <div class="project__content">
+            <span class="project__tech">React</span>
+            <h3>Client Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minus consequatur deleniti.</p>
+            <div class="project__actions">
+              <a href="#" class="project__button">Code <span>&lt;/&gt;</span></a>
+              <a href="#" class="project__button">Preview <span>🔗</span></a>
+            </div>
+          </div>
+        </article>
+        <!-- End of Project -->
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+      <div class="footer__container">
+        <ul class="footer__social">
+          <li>
+            <a href="#"><img src="assets/cib_github.png" alt="GitHub" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/cib_linkedin-in.png" alt="LinkedIn" /></a>
+          </li>
+          <li>
+            <a href="#"><div class="footer__cv">CV</div></a>
+          </li>
+        </ul>
+        <p><a href="mailto:joebloggs@gmail.com">joebloggs@gmail.com</a></p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
