@@ -16,53 +16,56 @@
         <div class="nav__logo">Joe Bloggs</div>
         <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
         <ul class="nav__list" id="nav-menu">
-          <li class="nav__item">
-            <a href="#" class="nav__link nav__link--active">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#projects" class="nav__link">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Get in Touch</a>
-          </li>
+          <li class="nav__item"><a href="#" class="nav__link nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Get in Touch</a></li>
         </ul>
       </div>
     </nav>
 
     <!-- HERO -->
     <header class="header__container">
-      <h6>👋 Hey! I’m Joe Bloggs</h6>
-      <h1>A Junior Software Developer based in the UK.</h1>
+      <div class="header__content">
+        <div class="header__text">
+          <h6>👋 Hey! I’m Joe Bloggs</h6>
+          <h1>A Junior Software Developer based in the UK.</h1>
+        </div>
+        <img src="assets/HeaderPhoto.png" alt="Profile illustration" class="header__image" />
+      </div>
     </header>
 
     <!-- ABOUT -->
     <section class="about" id="about">
       <div class="about__container">
-        <h2>About Me</h2>
         <img src="assets/ProfilePhoto.png" alt="Joe Bloggs" class="about__image" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida, nulla non cursus finibus.</p>
-        <p>Proin eu metus nec nisi gravida fermentum. Suspendisse potenti. Morbi rutrum massa ac purus dignissim.</p>
+        <div class="about__text">
+          <h2>About Me</h2>
+          <p>Nulla ac praesent tempor, orci sit nunc eget. Aliquam urna nunc, viverra sed tortor non. Id at pellentesque mauris at tincidunt venenatis urna mus.</p>
+          <p>Sodales pretium tempus tincidunt tellus in imperdiet. Integer fames maecenas amet, consequat. Et cursus gravida enim lorem urna, vivamus pulvinar porttitor.</p>
+        </div>
       </div>
     </section>
 
     <!-- SKILLS -->
     <section class="skills" id="skills">
-      <h2>Technical Skills</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet eos recusandae autem tempora eligendi error quae? Eum similique, voluptas, corrupti rerum nobis a officiis repellendus soluta dicta vitae tenetur!</p>
-      <ul class="skills__list">
-        <li class="skills__item"><img src="assets/SpringBoot.svg" alt="Spring Boot" /><span>Spring Boot</span></li>
-        <li class="skills__item"><img src="assets/Java.svg" alt="Java" /><span>Java</span></li>
-        <li class="skills__item"><img src="assets/React.svg" alt="React" /><span>React</span></li>
-        <li class="skills__item"><img src="assets/BEM.svg" alt="BEM" /><span>BEM</span></li>
-        <li class="skills__item"><img src="assets/SCSS.svg" alt="SCSS" /><span>SCSS</span></li>
-        <li class="skills__item"><img src="assets/JavaScript.svg" alt="JavaScript" /><span>JavaScript</span></li>
-        <li class="skills__item"><img src="assets/CSS3.svg" alt="CSS3" /><span>CSS3</span></li>
-        <li class="skills__item"><img src="assets/HTML5.svg" alt="HTML5" /><span>HTML5</span></li>
-        <li class="skills__item"><img src="assets/Git.svg" alt="Git" /><span>Git</span></li>
-      </ul>
+      <div class="skills__container">
+        <div class="skills__text">
+          <h2>Technical Skills</h2>
+          <p>Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
+        </div>
+        <ul class="skills__list">
+          <li class="skills__item"><img src="assets/SpringBoot.svg" alt="Spring Boot" /><span>Spring Boot</span></li>
+          <li class="skills__item"><img src="assets/Java.svg" alt="Java" /><span>Java</span></li>
+          <li class="skills__item"><img src="assets/React.svg" alt="React" /><span>React</span></li>
+          <li class="skills__item"><img src="assets/BEM.svg" alt="BEM" /><span>BEM</span></li>
+          <li class="skills__item"><img src="assets/SCSS.svg" alt="SCSS" /><span>SCSS</span></li>
+          <li class="skills__item"><img src="assets/JavaScript.svg" alt="JavaScript" /><span>JavaScript</span></li>
+          <li class="skills__item"><img src="assets/CSS3.svg" alt="CSS3" /><span>CSS3</span></li>
+          <li class="skills__item"><img src="assets/HTML5.svg" alt="HTML5" /><span>HTML5</span></li>
+          <li class="skills__item"><img src="assets/Git.svg" alt="Git" /><span>Git</span></li>
+        </ul>
+      </div>
     </section>
 
     <!-- PROJECTS -->
@@ -77,11 +80,34 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minus consequatur deleniti.</p>
             <div class="project__actions">
               <a href="#" class="project__button">Code <span>&lt;/&gt;</span></a>
-              <a href="#" class="project__button">Preview <span>🔗</span></a>
+              <a href="#" class="project__button">Preview <span>&lt;/&gt;</span></a>
             </div>
           </div>
         </article>
-        <!-- End of Project -->
+        <article class="project">
+          <img src="assets/ClientProject.png" alt="Client Project Screenshot" class="project__image" />
+          <div class="project__content">
+            <span class="project__tech">React</span>
+            <h3>Client Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minus consequatur deleniti.</p>
+            <div class="project__actions">
+              <a href="#" class="project__button">Code <span>&lt;/&gt;</span></a>
+              <a href="#" class="project__button">Preview <span>&lt;/&gt;</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="project">
+          <img src="assets/ClientProject.png" alt="Client Project Screenshot" class="project__image" />
+          <div class="project__content">
+            <span class="project__tech">REACT</span>
+            <h3>Client Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minus consequatur deleniti.</p>
+            <div class="project__actions">
+              <a href="#" class="project__button">Code <span>&lt;/&gt;</span></a>
+              <a href="#" class="project__button">Preview <span>&lt;/&gt;</span></a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -90,13 +116,46 @@
       <div class="footer__container">
         <ul class="footer__social">
           <li>
-            <a href="#"><img src="assets/cib_github.png" alt="GitHub" /></a>
+            <a href="#" aria-label="GitHub" class="footer__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577
+              0-.285-.01-1.04-.015-2.04-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757
+              -1.09-.745.083-.729.083-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.834 2.807
+              1.304 3.492.997.108-.775.418-1.304.76-1.604-2.665-.305-5.466-1.334-5.466-5.931
+              0-1.31.469-2.381 1.236-3.221-.124-.303-.536-1.524.117-3.176
+              0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399
+              3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552
+              3.295-1.23 3.295-1.23.655 1.653.243 2.874.12 3.176.77.84
+              1.235 1.911 1.235 3.221 0 4.609-2.804 5.624-5.475
+              5.921.43.371.823 1.102.823 2.222 0 1.606-.015
+              2.896-.015 3.289 0 .32.192.694.8.576C20.565
+              21.796 24 17.299 24 12c0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
           </li>
           <li>
-            <a href="#"><img src="assets/cib_linkedin-in.png" alt="LinkedIn" /></a>
+            <a href="#" aria-label="LinkedIn" class="footer__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M20.452 20.452h-3.554v-5.569c0-1.328-.025-3.036-1.849-3.036-1.85
+              0-2.133 1.445-2.133 2.939v5.666H9.361V9h3.414v1.561h.05c.476-.9
+              1.637-1.848 3.369-1.848 3.601 0 4.267 2.37 4.267 5.451v6.288zM5.337
+              7.433c-1.144 0-2.069-.926-2.069-2.069 0-1.144.925-2.07
+              2.069-2.07s2.069.926 2.069 2.07c0 1.143-.925 2.069-2.069
+              2.069zm1.777 13.019H3.56V9h3.554v11.452zM22.225
+              0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.225.792 24 1.771
+              24h20.451C23.2 24 24 23.225 24 22.271V1.729C24
+              .774 23.2 0 22.225 0z"
+                />
+              </svg>
+            </a>
           </li>
           <li>
-            <a href="#"><div class="footer__cv">CV</div></a>
+            <a href="#" class="footer__icon" aria-label="Download CV">
+              <div class="footer__cv">CV</div>
+            </a>
           </li>
         </ul>
         <p><a href="mailto:joebloggs@gmail.com">joebloggs@gmail.com</a></p>
