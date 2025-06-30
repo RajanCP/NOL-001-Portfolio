@@ -1,8 +1,7 @@
 @import "mixins";
 
 // Variables
-$primary: #000000;
-$secondary: #666666;
+$primary: #110458;
 $background: #ffffff;
 
 * {
@@ -205,6 +204,7 @@ header,
   }
 
   .about__text {
+    
     h2 {
       font-size: 2rem;
       margin-bottom: 1rem;
@@ -267,7 +267,7 @@ header,
 
     p {
       font-size: 1rem;
-      color: $secondary;
+      color: $primary;
       margin-bottom: 1.5rem;
     }
   }

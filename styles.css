@@ -7,7 +7,7 @@
 body {
   font-family: "Inter", sans-serif;
   background: #ffffff;
-  color: #000000;
+  color: #110458;
   line-height: 1.6;
 }
 
@@ -65,13 +65,13 @@ header,
 }
 .nav__list .nav__item .nav__link {
   text-decoration: none;
-  color: #000000;
+  color: #110458;
   font-size: 1rem;
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s;
 }
 .nav__list .nav__item .nav__link:hover {
-  border-color: #000000;
+  border-color: #110458;
 }
 @media (min-width: 1024px) {
   .nav__container {
@@ -220,7 +220,7 @@ header,
 }
 .skills .skills__text p {
   font-size: 1rem;
-  color: #666666;
+  color: #110458;
   margin-bottom: 1.5rem;
 }
 .skills .skills__list {
@@ -281,7 +281,7 @@ header,
 .projects .project__tech {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #000000;
+  color: #110458;
 }
 .projects .project h3 {
   font-size: 2.15rem;
@@ -306,7 +306,7 @@ header,
   padding: 0.5rem;
   border: 1.85px solid black;
   background: #ffffff;
-  color: #000000;
+  color: #110458;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: 700;
@@ -325,7 +325,7 @@ header,
 .footer {
   margin-top: 5rem;
   text-align: center;
-  background-color: #000000;
+  background-color: #110458;
   color: #ffffff;
 }
 .footer__container {
@@ -364,12 +364,12 @@ header,
 .footer__social .footer__icon svg {
   width: 20px;
   height: 20px;
-  color: #000000;
+  color: #110458;
 }
 .footer__social .footer__cv {
   font-size: 1rem;
   font-weight: 800;
-  color: #000000;
+  color: #110458;
 }
 .footer p {
   font-size: 1rem;
